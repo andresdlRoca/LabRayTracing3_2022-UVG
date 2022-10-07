@@ -24,10 +24,6 @@ rtx.lights.append( AmbientLight(intensity = 0.1 ))
 #rtx.lights.append( DirectionalLight(direction = (0,0,-1), intensity = 0.5 ))
 rtx.lights.append( PointLight(point = (-1,-1,0) ))
 
-# rtx.scene.append( Disk(position = (0,-3,-7), radius = 2, normal = (0,1,0), material = mirror ))
-# rtx.scene.append( Cylinder(center = (0,-1,-7), radius= 1, material = brick ))
-# rtx.scene.append( AABB(position = V3(3,2,-10), size = V3(2,2,2), material = stone) )
-
 rtx.scene.append( Triangle(v0=(0,-1,-7), v1=(1, 1, -7) , v2=(2, -4, -7), t= None, material = brick) )
 rtx.scene.append( Triangle(v0=(2,0,-10), v1=(2, 2, -7) , v2=(2, -2, -10), t= None, material = mirror) )
 rtx.scene.append( Triangle(v0=(3,3,-15), v1=(-5, 2, -7) , v2=(-2, 5, -10), t= None, material = marble) )
